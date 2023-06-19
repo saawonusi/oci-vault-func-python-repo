@@ -3,7 +3,7 @@ import logging
 import oci
 import base64
 
-def get_secret():
+def get_secret(ocid):
     signer = oci.auth.signers.get_resource_principals_signer()
     try:
         client = oci.secrets.SecretsClient({}, signer=signer)
