@@ -4,7 +4,7 @@ import oci
 import base64
 
 # Replace secret_id value below with the ocid of your secret
-secret_id = "ocid"
+secret_id = "ocid1.vaultsecret.oc1.uk-london-1.amaaaaaakujrcpia636am4piaqlzx3x6rhfsavauh5e27yopulvjfbngplca"
 
 # By default this will hit the auth service in the region the instance is running.
 signer = oci.auth.signers.get_resource_principals_signer()
